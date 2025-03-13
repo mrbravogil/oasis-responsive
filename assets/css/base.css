@@ -1,0 +1,40 @@
+/* MAIN BASE */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    font-size: 28px;
+}
+
+main {
+    color: #020019;
+    font-size: 18px;
+}
+
+footer {
+    font-size: 18px;
+}
+
+/* PRODUCT PAGE BASE */
+
+.songlist{
+    font-size: 16px;
+}
+
+/* THE STORY PAGE BASE */
+
+.bottom-story{
+    color: #020019;
+    font-size: 16px;
+    font-weight: 400;
+}
+.b-s-text {
+    font-size: 14px;
+}

@@ -1,0 +1,321 @@
+/* GLOBAL LAYOUT */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* NAV LAYOUT */
+
+nav {
+
+    height: 116px;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: #020019;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 550;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.254);
+    align-content: center;
+}
+
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+    color: #020019;
+    font-size: 18px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar.navbar-open .navbar-toggler {
+    border: none;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+main {
+    padding: 65px;
+    padding-top: 60px;
+}
+
+/* FOOTER LAYOUT */
+
+.custom-footer {
+    background-color: #020019;
+    font-size: 18px;
+    width: 100%;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.footer {
+    background-color: #020019;
+    font-size: 18px;
+    width: 100%;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.terms {
+    font-size: 13px;
+    color: grey;
+}
+
+
+/* HOMEPAGE */
+
+.home-page {
+    width: 100%;
+    max-width: 100vw;
+    padding: 0%;
+    margin: 0%;
+}
+
+.oasis-live1, .oasis-live3 {
+    background-color: #020019;
+    color: white;
+}
+
+.oasis-live1, .oasis-live2, .oasis-live3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    padding: 55px;
+}
+
+
+.selected-collection {
+    padding: 55px;
+}
+
+.message {
+    text-align: center;
+}
+
+.selected-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    font-weight: 500;
+}
+
+.message-title {
+    font-size: 32px;
+    font-weight: 50000;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.message-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.message-text img {
+    height: 30px;
+    margin-left: 5px;
+}
+
+.visit-store {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.visit-store a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.visit-store img {
+    height: 30px;
+    margin-left: 5px;
+}
+
+
+.item img {
+    width: 286px;
+}
+
+.listen {
+    padding: 90px;
+    padding-left: 70px;
+}
+
+.listen p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.listen img {
+    width: 263px;
+}
+
+.playlist {
+    display: flex;
+    gap: 55px;
+}
+
+/* PRODUCT PAGE LAYOUT */
+
+.pagelayout {
+    display: flex;
+}
+
+.product-main-img {
+    width: 600px;
+    max-width: 80vw;
+    padding-bottom: 50px;
+}
+
+.product-details{
+    width: 100%;
+    max-width: 80vw;
+    padding-left: 80px;
+    font-weight: 300;
+}
+
+.product-prices {
+    width: 100%; /* Make sure the container spans the full width */
+    max-width: 80vw;
+    padding: 15px auto; /* Add consistent padding around the container */
+}
+
+.price {
+    display: flex; /* Use flexbox for consistent alignment */
+    justify-content: space-between; /* Space out left and right details */
+    margin-bottom: 15px; /* Add spacing between price blocks */
+    padding: 10px 0; /* Add padding inside each price block */
+}
+
+.product-details-left {
+    float: left;
+}
+
+.product-details-right {
+    float: right;
+    align-items: right;
+    text-align: end;
+}
+
+.productdetail2 {
+    
+    padding: 10px;
+    gap: 60px;
+    display: flex;
+}
+
+.productdetails2 p {
+    padding-top: 20px;
+    width: 90px;
+    max-width: 80vw;
+    font-size: 14px;
+}
+
+.songlist {
+    padding: 20px;
+}
+
+
+/* THE STORY LAYOUT */
+
+/* Make sure the parent is positioned correctly */
+.container-fluid.position-relative {
+    position: relative;
+}
+
+/* Make the image full width */
+.full-width-img {
+    width: 100vw; /* Covers full width of the viewport */
+    height: auto; /* Keeps aspect ratio */
+    display: block;
+}
+
+/* Overlay text container*/
+.text-overlay {
+    position: absolute;
+    top: 50%;  /* Center vertically */
+    left: 75%;  /* Center horizontally */
+    transform: translate(-50%, -50%);  /* Ensures perfect centering */
+    width: 40%;  /* Adjust width to fit text */
+    max-width: 600px; /* Prevents it from being too wide */
+    background: rgba(255, 255, 255, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Ensures vertical centering */
+    align-items: center; /* Ensures horizontal centering */
+    text-align: center; /* Centers text inside */
+    height: auto; /* Ensures it expands dynamically */
+}
+
+/* Text Styling */
+.text-box {
+    width: 100%; /* Ensures text doesn't overflow */
+}
+
+.text-box p {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-align: center; /* Center text */
+    margin: 0; /* Removes extra margin */
+    width: 100%; /* Ensures full use of the container */
+    word-wrap: break-word; /* Prevents text from breaking layout */
+    overflow-wrap: break-word; /* Additional safeguard */
+}
+
+.bottom-story {
+
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+
+}
+
+.bottom-story img {
+    width: 500px;
+    max-width: 80vw;
+}
+
+.b-s-text {
+    flex: 1; /* Allows it to take up remaining space */
+    max-width: 500px; /* Limits max width */
+    text-align: center;
+}
+

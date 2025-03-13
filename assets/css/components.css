@@ -1,0 +1,70 @@
+/* COMPONENTES
+
+MAIN */
+
+.full-width-img {
+    width: 100vw; /* Ensures full width */
+    height: auto; /* Keeps aspect ratio */
+    display: block;
+}
+
+.whiteline {
+    height: 1px;
+    background-color: white;
+    margin: 20px 0; /* Equal spacing above and below */
+    width: 400px; /* Ensure the line spans the full container width */
+}
+
+.logooasis{
+    width: 118px;
+    height: 55px;
+}
+
+.icono {
+    width: 25px;
+    height: 25px;
+}
+
+.iconow {
+    width: 35%px;
+    height: 35px;
+}
+
+/* PRODUCT PAGE */
+
+.blackline {
+    height: 2px;
+    background-color: rgba(53, 53, 53, 0.412);
+    margin: 15px auto; /* Equal spacing above and below */
+    width: 98%;
+    display: block;
+}
+
+.longblackline {
+    height: 1px;
+    background-color: rgba(53, 53, 53, 0.412);
+    margin: 25px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+button.addbasket {
+    
+    padding: 10px;
+    background-color: #020019;
+    color: white;
+}
+
+.audiobutton {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.audioformat {
+    width: 120px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,155 @@
+
+/* Responsive: Tablets (≤ 1350px)*/
+@media (max-width: 1350px) {
+    .text-overlay {
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+        position: static;
+        transform: none;
+        background: rgba(255, 255, 255, 0.8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Responsive: Tablets (≤ 1060px)*/
+@media (max-width: 1060px) {
+    .selected-product,
+    .pagelayout,
+    .product-details,
+    .productdetail2,
+    .product2details2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+}
+
+/* Responsive: Navbar & General (≤ 987px)*/
+@media (max-width: 987px) {
+    .navbar.navbar-open {
+        background-color: #020019 !important;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+    }
+
+    .navbar.navbar-open .navbar-nav {
+        padding-top: 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar.navbar-open .nav-link {
+        color: white;
+        font-size: 25px;
+    }
+
+    .navbar.navbar-open .navbar-toggler-icon,
+    .navbar.navbar-open .icono {
+        filter: invert(1);
+        transition: filter 0.3s ease-in-out;
+    }
+
+    /* PAGES */
+    .oasis-live1,
+    .oasis-live2,
+    .oasis-live3 {
+        flex-direction: column;
+        padding: 60px;
+        text-align: center;
+    }
+
+    .oasis-live1 img,
+    .oasis-live2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .playlist,
+    .bottom-story,
+    .top-story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listen {
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .product-details {
+        padding: 0;
+    }
+
+    button.addbasket {
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    .audioformat {
+        width: 90px;
+        padding: 2px;
+        font-size: 16px;
+    }
+}
+
+/* Responsive: Mobile (≤ 576px) */
+@media (max-width: 576px) {
+    .navbar.navbar-open {
+        background-color: #020019 !important;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+    }
+
+    .navbar.navbar-open .nav-link {
+        color: white;
+        font-size: 25px;
+    }
+
+    /* PAGES */
+
+    .oasis-live1,
+    .oasis-live2 {
+        padding: 30px;
+    }
+
+    .oasis-live1 img,
+    .oasis-live2 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .oasis-live3 {
+        padding: 30px;
+        text-align: start;
+    }
+
+    .selected-product,
+    .playlist,
+    .bottom-story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .listen {
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+}

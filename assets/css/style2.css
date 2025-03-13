@@ -1,0 +1,396 @@
+@import url('layout.css');
+@import url('base.css');
+@import url('components.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav {
+
+    height: 116px;
+    padding: 15px;
+    padding-bottom: 5px;
+    color: #020019;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 550;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.254);
+    align-content: center;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    float: left;
+    gap: 30px;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.logooasis{
+    width: 118px;
+    height: 55px;
+}
+
+.icono {
+    width: 25px;
+    height: 25px;
+}
+
+.iconow {
+    width: 35%px;
+    height: 35px;
+}
+
+main {
+
+    padding: 65px;
+    padding-top: 60px;
+    color: #020019;
+    font-size: 18px;
+    
+}
+
+footer {
+    background-color: #020019;
+    font-size: 18px;
+    color: white;
+    height: 421px;
+    width: 100%;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.whiteline {
+    height: 1px;
+    background-color: white;
+    margin: 20px 0; /* Equal spacing above and below */
+    width: 400px; /* Ensure the line spans the full container width */
+}
+
+.footlist {
+    display: flex;
+    font-weight: bold;
+}
+
+.footerleft {
+    float: left;
+}
+
+.footerright {
+    float: right;
+}
+
+.terms {
+
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    font-size: 13px;
+    color: grey;
+}
+
+.top {
+    display: flex;
+    gap: 20px;
+}
+
+/* Home Page CSS   */
+
+.home-page {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.oasis-live1 {
+    background-color: #020019;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.oasis-live2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.oasis-live3 {
+    background-color: #020019;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px;
+}
+
+.selected-collection {
+    padding: 0;
+}
+
+.message {
+    text-align: center;
+}
+
+.selected-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    font-weight: 500;
+}
+
+.message-title {
+    font-size: 32px;
+    font-weight: 50000;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.message-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.message-text img {
+    height: 30px;
+    margin-left: 5px;
+}
+
+.visit-store {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.visit-store a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: underline;
+    color: inherit;
+}
+
+.visit-store img {
+    height: 30px;
+    margin-left: 5px;
+}
+
+
+.item img {
+    width: 286px;
+}
+
+.listen {
+    padding: 130px;
+    padding-left: 70px;
+}
+
+.listen p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.listen img {
+    width: 263px;
+}
+
+.playlist {
+    display: flex;
+    gap: 55px;
+
+}
+
+
+/* Product Page CSS */
+
+.pagelayout {
+    display: flex;
+}
+
+.product-main-img {
+    width: 600px;
+}
+
+.product-details{
+    width: 700px;
+    padding-left: 80px;
+    font-weight: 300;
+}
+
+.blackline {
+    height: 1px;
+    background-color: rgba(53, 53, 53, 0.412);
+    margin: 15px 0; /* Equal spacing above and below */
+    width: 620px; /* Ensure the line spans the full container width */
+}
+
+.longblackline {
+    height: 1px;
+    background-color: rgba(53, 53, 53, 0.412);
+    margin: 25px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-prices {
+    width: 100%; /* Make sure the container spans the full width */
+    padding: 15px 0; /* Add consistent padding around the container */
+}
+
+.price {
+    display: flex; /* Use flexbox for consistent alignment */
+    justify-content: space-between; /* Space out left and right details */
+    margin-bottom: 15px; /* Add spacing between price blocks */
+    padding: 10px 0; /* Add padding inside each price block */
+}
+
+.product-details-left {
+    float: left;
+}
+
+.product-details-right {
+    float: right;
+    align-items: right;
+    text-align: end;
+}
+
+button.addbasket {
+    
+    padding: 10px;
+    background-color: #020019;
+    color: white;
+}
+
+.audiobutton {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.audioformat {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.productdetail2 {
+    
+    padding: 10px;
+    gap: 60px;
+    display: flex;
+}
+
+.songlist{
+    font-size: 16px;
+}
+
+
+/* The Story Page CSS */
+
+.top-story {
+    position: relative; /* Position for overlaying elements */
+    background-size: cover; /* Make the background cover the full width */
+    background-image: url('assets/images/oasis-thestory-final.jpg');
+    background-position: center; /* Center the background image */
+    width: 100%; /* Full width */
+    height: 906px; /* Adjust height based on content */
+    padding: 0; /* Optional padding */
+    padding-top: 5px;
+}
+
+.t-s-bckground {
+    padding: 50px;
+    padding-right: 30px;
+}
+
+.t-s-text {
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 500px;
+    float: right;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    font-size: 16px;
+    color: #020019;
+    
+}
+
+.bottom-story{
+    display: flex;
+    padding: 50px;
+    padding-left: 200px;
+    gap: 200px;
+    align-items: center;
+    color: #020019;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.b-s-text {
+    width: 500px;
+    float: right;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    font-size: 14px;
+
+}
+.bottom-story{
+    display: flex;
+    padding: 50px;
+    padding-left: 200px;
+    gap: 200px;
+    align-items: center;
+    color: #020019;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.b-s-text {
+    width: 500px;
+    float: right;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    font-size: 14px;
+
+}
