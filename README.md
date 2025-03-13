@@ -1,3 +1,5 @@
+OASIS OFFICIAL WEBSITE - RESPONSIVE
+
 Este proyecto es una página web inspirada en el diseño y la esencia de la web oficial de Oasis, una de las bandas más icónicas del rock británico.
 La web busca capturar el espíritu visual y narrativo de la banda, brindando a los usuarios una experiencia inmersiva que combine información, nostalgia 
 y funcionalidad.
